@@ -16,7 +16,7 @@ import org.apache.http.util.EntityUtils;
 public class Main {
     private static final String IMAGE1 = "image_1.jpeg";
     private static final String IMAGE2 = "image_2.jpeg";
-    private static final String URL = "https://my-api.plantnet.org/v2/identify/all?api-key=2a10bmPqmtKjzGdlxwBzXqmu";
+    private static final String URL = "https://my-api.plantnet.org/v2/identify/all?api-key=YOURKEY";
 
     public static void main(String[] args) {
         File file1 = new File(IMAGE1);
